@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Roboto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    height: 97.9vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 1.5rem;
+    background-color: #474646;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    height: 15rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    background-color: #474646;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    width: 50rem;
+    height: min-content;
+}
+
+section h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section img {
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+section form label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+section form input {
+    font-size: 1.6rem;
+    color: #f5f5f5;
+    margin-bottom: 1rem;
+    padding: .7rem 1rem;
+    background-color: #525050;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 100%;
+}
+
+section form button {
+    margin-top: 2rem;
+    padding: 1.3rem;
+    margin-right: 31%;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: #00D1B2;
+    color: #f5f5f5;
+    font-size: 1.6rem;
+}
+
+section form button:hover {
+    background-color: #00C4A7;
+}
+
+#inputTrianguloIsoscelesAltura{
+    margin-top: 2rem;
+    padding: 1.3rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: #00D1B2;
+    color: #f5f5f5;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+#inputTrianguloIsoscelesAltura:hover {
+    background-color: #00C4A7;
+}
+
+section form button:last-child {
+    margin-right: 0;
+    background-color: #F14668;
+}
+
+section form button:last-child:hover {
+    background-color: #F03A5F;
+}
+
+section h3 {
+    width: 100%;
+    color: #f5f5f5;
+    text-align: center;
+    margin: 3rem 0rem 0rem 0rem;
+}
